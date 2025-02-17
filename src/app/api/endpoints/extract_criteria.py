@@ -7,7 +7,7 @@ router = APIRouter()
 
 @router.post("/extract-criteria")
 async def extract_ranking_criteria(file: UploadFile = File(...)):
-    file_content = await process_file(file)
-    text = extract_text(file_content)
+    file_content, file_extension = await process_file(file)
+    text = extract_text(file_content, file_extension)
     criteria = extract_criteria(text)
     return {"criteria": criteria}

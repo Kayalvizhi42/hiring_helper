@@ -35,5 +35,6 @@ async def process_file(file: UploadFile) -> bytes:
 
     # Read file content
     file_content = await file.read()
+    print(type(file_content))
 
-    return file_content
+    return file_content, file_extension
