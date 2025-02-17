@@ -4,15 +4,15 @@ from fastapi import UploadFile, HTTPException
 ALLOWED_FILE_TYPES = {"pdf", "docx"}
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5 MB
 
-async def process_file(file: UploadFile) -> bytes:
+async def process_file(file: UploadFile) -> tuple[bytes, str]:
     """
-    Processes an uploaded file, validates its type and size, and returns the file content as bytes.
+    Processes an uploaded file, validates its type and size, and returns the file content and extension.
 
     Args:
         file (UploadFile): The uploaded file.
 
     Returns:
-        bytes: The content of the file.
+        tuple[bytes, str]: A tuple containing the file content and file extension.
 
     Raises:
         HTTPException: If the file type is not allowed or the file size exceeds the limit.
@@ -35,6 +35,5 @@ async def process_file(file: UploadFile) -> bytes:
 
     # Read file content
     file_content = await file.read()
-    print(type(file_content))
 
     return file_content, file_extension
