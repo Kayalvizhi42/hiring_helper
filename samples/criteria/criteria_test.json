@@ -1,0 +1,46 @@
+{
+    "criteria": {
+        "technical_skills": [
+            "Statistical analysis",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "GenAI"
+        ],
+        "soft_skills": [
+            "Ability to interpret and translate data into meaningful business insights",
+            "Excellent verbal, written communication and presentation skills"
+        ],
+        "experience_requirements": [
+            "5 to 8 years of relevant experience in Data Analytics / Data Science roles"
+        ],
+        "key_responsibilities": [
+            "Work across a range of Analytical Solutions including Design, Development, Validation, Calibration, Documentation, Implementation, Monitoring, and Reporting",
+            "Generate analytical insights using Python, Pyspark, Hadoop, SQL, etc.",
+            "Develop predictive solutions using advanced statistical techniques",
+            "Support GenAI initiatives",
+            "Utilize supervised and unsupervised machine learning, NLP, and new data science capabilities",
+            "Serve as a Subject Matter Expert on machine learning, deep learning, and GenAI techniques",
+            "Collaborate with technology teams to implement analytical solutions and models",
+            "Provide additional analysis based on stakeholder needs"
+        ],
+        "education_requirements": [],
+        "nice_to_have": [
+            "Experience in BFSI domain or Statistical Modelling & Validation"
+        ],
+        "job_title": "Senior Data Science Analyst",
+        "job_level": "Senior",
+        "location_requirements": null,
+        "travel_requirements": null,
+        "tools_and_technologies": [
+            "Python",
+            "Pyspark",
+            "R",
+            "SQL",
+            "Hadoop"
+        ],
+        "industry_knowledge": [],
+        "certifications_required": [],
+        "security_clearance": null
+    }
+}

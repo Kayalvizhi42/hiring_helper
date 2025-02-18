@@ -1,0 +1,309 @@
+{
+    "results": [
+        {
+            "technical_skills_match": 5,
+            "soft_skills_match": 5,
+            "experience_match": 5,
+            "education_match": 5,
+            "location_match": 50,
+            "industry_match": 5,
+            "tools_and_technology_match": 5,
+            "skill_details": [
+                {
+                    "skill_name": "Statistical analysis",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Machine Learning",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Deep Learning",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "NLP",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "GenAI",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 2.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Ability to interpret and translate data into meaningful business insights",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Excellent verbal, written communication and presentation skills",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Python",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Pyspark",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "R",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 3.0,
+                    "context_score": 0.8
+                },
+                {
+                    "skill_name": "SQL",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Hadoop",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "BFSI domain",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 7.0,
+                    "context_score": 1.0
+                }
+            ],
+            "strengths": [
+                "Extensive BFSI domain experience",
+                "Advanced GenAI and deep learning expertise",
+                "Exceeds experience requirement (7+ years)",
+                "Proficiency in all required tools (Python, PySpark, SQL, Hadoop, R)"
+            ],
+            "gaps": []
+        },
+        {
+            "technical_skills_match": 2,
+            "soft_skills_match": 4,
+            "experience_match": 5,
+            "education_match": 5,
+            "location_match": 0,
+            "industry_match": 3,
+            "tools_and_technology_match": 4,
+            "skill_details": [
+                {
+                    "skill_name": "Statistical analysis",
+                    "required": true,
+                    "match_level": 1.0,
+                    "years_experience": 6.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Machine Learning",
+                    "required": true,
+                    "match_level": 1.0,
+                    "years_experience": 6.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Deep Learning",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": 0.0,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "NLP",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": 0.0,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "GenAI",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": 0.0,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "Python",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 6.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "PySpark",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "SQL",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 9.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "Hadoop",
+                    "required": false,
+                    "match_level": 1.0,
+                    "years_experience": 4.0,
+                    "context_score": 1.0
+                },
+                {
+                    "skill_name": "R",
+                    "required": false,
+                    "match_level": 0.0,
+                    "years_experience": 0.0,
+                    "context_score": 0.0
+                }
+            ],
+            "strengths": [
+                "Strong foundation in statistical analysis and machine learning",
+                "Proficient with Python, PySpark, SQL, and Hadoop",
+                "Meets the required experience range of 5-8 years"
+            ],
+            "gaps": [
+                "No direct deep learning experience",
+                "No NLP exposure",
+                "Limited GenAI experience"
+            ]
+        },
+        {
+            "technical_skills_match": 2,
+            "soft_skills_match": 3,
+            "experience_match": 3,
+            "education_match": 3,
+            "location_match": 0,
+            "industry_match": 2,
+            "tools_and_technology_match": 2,
+            "skill_details": [
+                {
+                    "skill_name": "Statistical analysis",
+                    "required": true,
+                    "match_level": 0.7,
+                    "years_experience": 6.0,
+                    "context_score": 0.6
+                },
+                {
+                    "skill_name": "Machine Learning",
+                    "required": true,
+                    "match_level": 0.3,
+                    "years_experience": 1.0,
+                    "context_score": 0.3
+                },
+                {
+                    "skill_name": "Deep Learning",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": null,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "NLP",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": null,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "GenAI",
+                    "required": true,
+                    "match_level": 0.0,
+                    "years_experience": null,
+                    "context_score": 0.0
+                },
+                {
+                    "skill_name": "Ability to interpret and translate data into meaningful business insights",
+                    "required": true,
+                    "match_level": 0.9,
+                    "years_experience": 6.0,
+                    "context_score": 0.8
+                },
+                {
+                    "skill_name": "Excellent verbal, written communication and presentation skills",
+                    "required": true,
+                    "match_level": 0.7,
+                    "years_experience": 6.0,
+                    "context_score": 0.6
+                },
+                {
+                    "skill_name": "Python",
+                    "required": true,
+                    "match_level": 0.4,
+                    "years_experience": 2.0,
+                    "context_score": 0.3
+                },
+                {
+                    "skill_name": "Pyspark",
+                    "required": true,
+                    "match_level": 0.3,
+                    "years_experience": 1.0,
+                    "context_score": 0.2
+                },
+                {
+                    "skill_name": "R",
+                    "required": true,
+                    "match_level": 0.4,
+                    "years_experience": 2.0,
+                    "context_score": 0.3
+                },
+                {
+                    "skill_name": "SQL",
+                    "required": true,
+                    "match_level": 0.9,
+                    "years_experience": 6.0,
+                    "context_score": 0.8
+                },
+                {
+                    "skill_name": "Hadoop",
+                    "required": true,
+                    "match_level": 0.3,
+                    "years_experience": 1.0,
+                    "context_score": 0.2
+                }
+            ],
+            "strengths": [
+                "Strong SQL experience"
+            ],
+            "gaps": [
+                "Limited advanced ML experience",
+                "No Deep Learning experience",
+                "No NLP experience",
+                "No GenAI experience",
+                "Limited Python"
+            ]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 from openai import OpenAI
-from app.prompts.extract_jd import JD_PROMPT
-from app.prompts.score_resume import SR_PROMPT
-from app.models.ranking_criteria import JobRequirements
-from app.models.resume import JobMatchScore
+from app.prompts.extract_jd_prompt import JD_PROMPT
+from app.prompts.score_resume_prompt import SR_PROMPT
+from app.models.job_requirements_model import JobRequirements
+from app.models.resume_score_model import JobMatchScore
 from typing import Dict
 
 client = OpenAI()

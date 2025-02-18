@@ -1,0 +1,320 @@
+{
+    "results": [
+        {
+            "technical_skills_match": [
+                {
+                    "skill_description": "Statistical analysis",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Machine Learning",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Deep Learning",
+                    "score": 5
+                },
+                {
+                    "skill_description": "NLP",
+                    "score": 5
+                },
+                {
+                    "skill_description": "GenAI",
+                    "score": 5
+                }
+            ],
+            "soft_skills_match": [
+                {
+                    "skill_description": "Ability to interpret and translate data into meaningful business insights",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Excellent verbal, written communication and presentation skills",
+                    "score": 5
+                }
+            ],
+            "experience_match": [
+                {
+                    "skill_description": "5 to 8 years of relevant experience in Data Analytics / Data Science roles",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Work across a range of Analytical Solutions including Design, Development, Validation, Calibration, Documentation, Implementation, Monitoring, and Reporting",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Generate analytical insights using Python, Pyspark, Hadoop, SQL, etc.",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Develop predictive solutions using advanced statistical techniques",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Support GenAI initiatives",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Utilize supervised and unsupervised machine learning, NLP, and new data science capabilities",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Serve as a Subject Matter Expert on machine learning, deep learning, and GenAI techniques",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Collaborate with technology teams to implement analytical solutions and models",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Provide additional analysis based on stakeholder needs",
+                    "score": 5
+                }
+            ],
+            "education_match": [],
+            "tools_and_technology_match": [
+                {
+                    "skill_description": "Python",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Pyspark",
+                    "score": 5
+                },
+                {
+                    "skill_description": "R",
+                    "score": 5
+                },
+                {
+                    "skill_description": "SQL",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Hadoop",
+                    "score": 5
+                }
+            ],
+            "location_match": 3,
+            "industry_match": 5,
+            "strengths": [
+                "Extensive BFSI domain expertise",
+                "Robust GenAI experience",
+                "Relevant AI & ML certifications",
+                "Published research in peer-reviewed journal"
+            ],
+            "gaps": []
+        },
+        {
+            "technical_skills_match": [
+                {
+                    "skill_description": "Statistical analysis",
+                    "score": 3
+                },
+                {
+                    "skill_description": "Machine Learning",
+                    "score": 2
+                },
+                {
+                    "skill_description": "Deep Learning",
+                    "score": 0
+                },
+                {
+                    "skill_description": "NLP",
+                    "score": 0
+                },
+                {
+                    "skill_description": "GenAI",
+                    "score": 0
+                }
+            ],
+            "soft_skills_match": [
+                {
+                    "skill_description": "Ability to interpret and translate data into meaningful business insights",
+                    "score": 4
+                },
+                {
+                    "skill_description": "Excellent verbal, written communication and presentation skills",
+                    "score": 3
+                }
+            ],
+            "experience_match": [
+                {
+                    "skill_description": "5 to 8 years of relevant experience in Data Analytics / Data Science roles",
+                    "score": 4
+                },
+                {
+                    "skill_description": "Work across a range of Analytical Solutions including Design, Development, Validation, Calibration, Documentation, Implementation, Monitoring, and Reporting",
+                    "score": 2
+                },
+                {
+                    "skill_description": "Generate analytical insights using Python, Pyspark, Hadoop, SQL, etc.",
+                    "score": 3
+                },
+                {
+                    "skill_description": "Develop predictive solutions using advanced statistical techniques",
+                    "score": 2
+                },
+                {
+                    "skill_description": "Support GenAI initiatives",
+                    "score": 0
+                },
+                {
+                    "skill_description": "Utilize supervised and unsupervised machine learning, NLP, and new data science capabilities",
+                    "score": 1
+                },
+                {
+                    "skill_description": "Serve as a Subject Matter Expert on machine learning, deep learning, and GenAI techniques",
+                    "score": 0
+                },
+                {
+                    "skill_description": "Collaborate with technology teams to implement analytical solutions and models",
+                    "score": 3
+                },
+                {
+                    "skill_description": "Provide additional analysis based on stakeholder needs",
+                    "score": 4
+                }
+            ],
+            "education_match": [],
+            "tools_and_technology_match": [
+                {
+                    "skill_description": "Python",
+                    "score": 2
+                },
+                {
+                    "skill_description": "Pyspark",
+                    "score": 2
+                },
+                {
+                    "skill_description": "R",
+                    "score": 2
+                },
+                {
+                    "skill_description": "SQL",
+                    "score": 4
+                },
+                {
+                    "skill_description": "Hadoop",
+                    "score": 2
+                }
+            ],
+            "location_match": 3,
+            "industry_match": 2,
+            "strengths": [
+                "Strong SQL expertise",
+                "Solid data analysis and reporting background"
+            ],
+            "gaps": [
+                "Advanced ML and deep learning exposure",
+                "NLP and GenAI experience"
+            ]
+        },
+        {
+            "technical_skills_match": [
+                {
+                    "skill_description": "Statistical analysis",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Machine Learning",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Deep Learning",
+                    "score": 2
+                },
+                {
+                    "skill_description": "NLP",
+                    "score": 2
+                },
+                {
+                    "skill_description": "GenAI",
+                    "score": 1
+                }
+            ],
+            "soft_skills_match": [
+                {
+                    "skill_description": "Ability to interpret and translate data into meaningful business insights",
+                    "score": 4
+                },
+                {
+                    "skill_description": "Excellent verbal, written communication and presentation skills",
+                    "score": 4
+                }
+            ],
+            "experience_match": [
+                {
+                    "skill_description": "5 to 8 years of relevant experience in Data Analytics / Data Science roles",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Work across a range of Analytical Solutions including Design, Development, Validation, Calibration, Documentation, Implementation, Monitoring, and Reporting",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Generate analytical insights using Python, Pyspark, Hadoop, SQL, etc.",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Develop predictive solutions using advanced statistical techniques",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Support GenAI initiatives",
+                    "score": 1
+                },
+                {
+                    "skill_description": "Utilize supervised and unsupervised machine learning, NLP, and new data science capabilities",
+                    "score": 4
+                },
+                {
+                    "skill_description": "Serve as a Subject Matter Expert on machine learning, deep learning, and GenAI techniques",
+                    "score": 2
+                },
+                {
+                    "skill_description": "Collaborate with technology teams to implement analytical solutions and models",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Provide additional analysis based on stakeholder needs",
+                    "score": 5
+                }
+            ],
+            "education_match": [],
+            "tools_and_technology_match": [
+                {
+                    "skill_description": "Python",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Pyspark",
+                    "score": 5
+                },
+                {
+                    "skill_description": "R",
+                    "score": 0
+                },
+                {
+                    "skill_description": "SQL",
+                    "score": 5
+                },
+                {
+                    "skill_description": "Hadoop",
+                    "score": 5
+                }
+            ],
+            "location_match": 0,
+            "industry_match": 4,
+            "strengths": [
+                "Strong proficiency in Python, PySpark, SQL, Hadoop",
+                "Solid 6 years of experience within required range",
+                "Extensive background in statistical modeling and machine learning"
+            ],
+            "gaps": [
+                "Limited GenAI experience",
+                "Minimal deep learning and NLP exposure",
+                "No demonstrated R usage"
+            ]
+        }
+    ]
+}
