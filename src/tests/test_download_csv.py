@@ -1,6 +1,8 @@
 from fastapi.testclient import TestClient
 from app.main import app
 import json
+import csv 
+import io
 
 client = TestClient(app)
 
@@ -14,7 +16,7 @@ def test_score_resumes():
     criteria_json = json.dumps(criteria)
 
     response = client.post(
-        "/score-resumes-json",
+        "/score-resumes",
         data={"criteria": criteria_json},
         files={
             ("files", ("john_doe.pdf", open("samples/resumes/weak-fit.pdf", "rb"), "application/pdf")),
@@ -24,14 +26,19 @@ def test_score_resumes():
 
     )
     assert response.status_code == 200
-    assert "results" in response.json()
+    assert response.headers.get("content-type") == "text/csv", "Content-Type is not text/csv"
+    
 
-    print(response.json())
+    csv_content = response.content.decode("utf-8")
+    csv_file = io.StringIO(csv_content)
+    reader = csv.reader(csv_file)
+        
+    # Get all rows from the CSV
+    rows = list(reader)
 
-    with open("samples/resume_score/resume_score_test.json", "w") as f:
-        json.dump(response.json(), f)
+    assert len(rows) > 0, "CSV file is empty"
 
-    print("Resume scoring test passed successfully.")
+    print("CSV download test passed successfully.")
 
 if __name__ == "__main__":
     test_score_resumes()

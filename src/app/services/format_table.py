@@ -1,23 +1,27 @@
 import json
 import pandas as pd
+import io
+import csv
+from fastapi.responses import StreamingResponse
+from app.models.resume_score_model import JobMatchScore
 
-def flatten_job_match_score(job_match_score: dict) -> dict:
+def flatten_job_match_score(job_match_score: JobMatchScore) -> dict:
     """
     Flattens a single JobMatchScore JSON object into a dictionary with simple values.
     
     For list fields (technical_skills_match, soft_skills_match, experience_match, education_match, 
     tools_and_technology_match, strengths, and gaps), we join the list into a semicolon-delimited string.
     """
+    job_match_score = job_match_score.model_dump()
     flattened = {}
     
     # Flatten list fields of SkillMatch objects
     for key in ["technical_skills_match", "soft_skills_match", "experience_match", "education_match", "tools_and_technology_match"]:
         items = job_match_score.get(key, [])
         # Format each SkillMatch as "skill_description (score)"
-        
-        flattened[key] = "; ".join(
-            [f"{item.get('skill_description', '').strip()} ({item.get('score', '')})" for item in items]
-        )
+        for item in items:
+            column_name = f"{item.get('skill_description', '').replace('_' , ' ').replace(',', '.')}"
+            flattened[column_name] = item.get('score', '').replace(',', '.')
     
     # Flatten integer fields directly
     flattened["location_match"] = job_match_score.get("location_match", None)
@@ -29,26 +33,14 @@ def flatten_job_match_score(job_match_score: dict) -> dict:
     
     return flattened
 
-def main():
-    # Load the JSON data from a file (adjust the file name/path as needed)
-    with open("job_match_score.json", "r") as f:
-        data = json.load(f)
-    
-    # Determine if data contains a "results" key or is a list or single object
-    if isinstance(data, dict) and "results" in data:
-        items = data["results"]
-    elif isinstance(data, list):
-        items = data
-    else:
-        items = [data]
-    
-    # Flatten each JobMatchScore object
-    flattened_list = [flatten_job_match_score(item) for item in items]
-    
-    # Create a pandas DataFrame and export to CSV
-    df = pd.DataFrame(flattened_list)
-    df.to_csv("job_match_score.csv", index=False)
-    print("CSV exported successfully as 'job_match_score.csv'.")
+def format_as_csv(items):
+    output = io.StringIO()
+    writer = csv.DictWriter(output, fieldnames= items[0].keys())
+    writer.writeheader()
+    writer.writerows(items)
 
-if __name__ == "__main__":
-    main()
+    output.seek(0)
+    headers = {
+        "Content-Disposition": "attachment; filename=job_match_score.csv"
+    }
+    return StreamingResponse(output, media_type="text/csv", headers=headers)
