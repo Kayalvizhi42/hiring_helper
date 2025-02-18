@@ -1,5 +1,3 @@
-import json
-import pandas as pd
 import io
 import csv
 from fastapi.responses import StreamingResponse
@@ -21,7 +19,10 @@ def flatten_job_match_score(job_match_score: JobMatchScore) -> dict:
         # Format each SkillMatch as "skill_description (score)"
         for item in items:
             column_name = f"{item.get('skill_description', '').replace('_' , ' ').replace(',', '.')}"
-            flattened[column_name] = item.get('score', '').replace(',', '.')
+            value = item.get('score', '')
+            if type(value) is str:
+                value.replace(',', '.')
+            flattened[column_name] = value
     
     # Flatten integer fields directly
     flattened["location_match"] = job_match_score.get("location_match", None)
