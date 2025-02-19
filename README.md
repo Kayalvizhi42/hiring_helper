@@ -22,7 +22,7 @@ Hiring Helper is a FastAPI application that helps HR professionals extract job c
 1. **Clone the repository:**
 
    ```bash
-   git clone [YOUR_REPOSITORY_URL]
+   git clone https://github.com/Kayalvizhi42/hiring_helper.git
    cd hiring_helper
    ```
 
