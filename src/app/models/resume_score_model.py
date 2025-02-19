@@ -6,6 +6,8 @@ class SkillMatch(BaseModel):
     score: int = Field(description="match score (0-5)")
 
 class JobMatchScore(BaseModel):
+    candidate_name: str = Field(description="Name of Candidate")
+    
     technical_skills_match: List[SkillMatch] = Field(
         description="Technical skills match scores (0-5)",
     )

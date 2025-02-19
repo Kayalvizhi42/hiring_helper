@@ -101,17 +101,16 @@ Hiring Helper is a FastAPI application that helps HR professionals extract job c
     ```bash
     fastapi run src/app/main.py
     ```
+    Open `http://0.0.0.0:8000/docs` to access the swagger ui
 
 2. **Accessing Endpoints:**
 
    - **Extract Criteria:** `POST /extract-criteria`  
-     [Describe the expected input and output.]
+     
 
    - **Score Resumes:** `POST /score-resumes`  
-     [Describe the expected input (multipart/form-data) and output.]
+     
 
-   - **Download CSV:** `GET /export-csv`  
-     [This endpoint returns a downloadable CSV file with flattened resume scores.]
 
 ---
 

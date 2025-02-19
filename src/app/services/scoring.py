@@ -1,16 +1,15 @@
-from openai import OpenAI
+from openai import AsyncOpenAI
 from app.prompts.extract_jd_prompt import JD_PROMPT
 from app.prompts.score_resume_prompt import SR_PROMPT
 from app.models.job_requirements_model import JobRequirements
 from app.models.resume_score_model import JobMatchScore
-from typing import Dict
 
-client = OpenAI()
+client = AsyncOpenAI()
 
-def extract_criteria(job_description: str) -> dict:
+async def extract_criteria(job_description: str) -> JobRequirements | None:
     prompt = JD_PROMPT.format(job_description=job_description)
     
-    response = client.beta.chat.completions.parse(
+    response = await client.beta.chat.completions.parse(
         model="o1",
         messages=[{"role": "system", "content": "You are an expert in extracting detailed job requirements from job descriptions."},
                   {"role": "user", "content": prompt}],
@@ -20,10 +19,10 @@ def extract_criteria(job_description: str) -> dict:
     )
     return response.choices[0].message.parsed
 
-def score_resume(criteria: Dict, resume: str) -> dict:
+async def score_resume(criteria: dict, resume: str) -> JobMatchScore | None:
     prompt = SR_PROMPT.format(job_description=criteria, resume=resume)
     
-    response = client.beta.chat.completions.parse(
+    response = await client.beta.chat.completions.parse(
         model="o1",
         messages=[{"role": "system", "content": "You are an expert job matching assistant."},
                   {"role": "user", "content": prompt}],
