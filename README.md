@@ -126,7 +126,7 @@ pytest src/tests
 
 ## License
 
-[Fill in the license information or reference the LICENSE file.]
+[MIT License](LICENSE)
 
 ---
 
@@ -138,7 +138,7 @@ pytest src/tests
 
 ## Acknowledgments
 
-[Credit any resources, libraries, or inspirations.]
+Took inspiration from the detailed pydantic models from [Tony Kipkemboi](https://github.com/tonykipkemboi/resume-optimization-crew)
 
 ---
 
