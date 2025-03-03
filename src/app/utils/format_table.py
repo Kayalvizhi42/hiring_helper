@@ -45,3 +45,11 @@ def format_as_csv(items):
     items_df.to_csv(file_path)
 
     return FileResponse(file_path, media_type="text/csv", filename="job_match_score.csv")
+
+
+def format_df_as_csv(df: pd.DataFrame):
+    file_path = 'samples/output/filtered_resumes.csv'
+    df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+    df.to_csv(file_path)
+
+    return FileResponse(file_path, media_type="text/csv", filename="filtered_resumes.csv")

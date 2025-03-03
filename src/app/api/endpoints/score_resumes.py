@@ -4,7 +4,7 @@ from app.services.file_processing import process_file
 from app.services.json_processing import process_json
 from app.services.text_extraction import extract_text
 from app.services.scoring import score_resume
-from app.services.format_table import flatten_job_match_score, format_as_csv
+from app.utils.format_table import flatten_job_match_score, format_as_csv
 
 
 router = APIRouter()

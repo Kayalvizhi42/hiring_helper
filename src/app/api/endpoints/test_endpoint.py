@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.services.format_table import flatten_job_match_score, format_as_csv
+from app.utils.format_table import flatten_job_match_score, format_as_csv
 from app.models.resume_score_model import JobMatchScore
 import json
 import os
